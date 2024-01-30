@@ -4,6 +4,7 @@
     grid-gap: 20px; /* Adjusts spacing between posts */
     max-width: 800px; /* Adjust based on your preference */
     margin: auto; /* Center the grid horizontally */
+    height:auto;
     padding: 20px; /* Adds some padding around the grid */
 }
 
@@ -17,6 +18,12 @@
 
 .instagram-post:hover {
     transform: scale(1.05); /* Slightly enlarges the post on hover */
+}
+
+@media (max-width: 600px) {
+    .instagram-feed {
+        grid-template-columns: 1fr; /* Switches to a single-column layout */
+    }
 }
 
 
@@ -252,9 +259,10 @@
   } */
   
   /* Mobile media-queries (max-width: 767px) */
-  @media only screen and (max-width: 767px) {
+  /* @media only screen and (max-width: 767px) {
     .page__description h1 {
       margin-top: 100px;
     }
-  }
+  } */
   
+
