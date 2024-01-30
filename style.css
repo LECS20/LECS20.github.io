@@ -265,4 +265,12 @@
     }
   } */
   
-
+/* Adjustments for Mobile Views */
+@media only screen and (max-width: 414px) { /* iPhone 15 Plus width */
+    #neubar {
+        margin-top: 20px; /* Or adjust as necessary */
+    }
+    body {
+        padding-top: 60px; /* Adjust based on your navbar's actual height */
+    }
+}
